@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ball"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/logos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="32dp"
+        android:src="@drawable/halepwilliams" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_margin="5dp"
+                android:text=""
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Set1"
+                android:textAlignment="textStart"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Set2"
+                android:textAlignment="textStart"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:text="Set3"
+                android:textAlignment="textStart"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_marginTop="8dp"
+                android:text="Points"
+                android:textAlignment="textStart"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/playerA_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_margin="5dp"
+                android:text="Simona Halep"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/playerA_set1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="center_horizontal"
+                android:text="0"
+                android:textAlignment="textStart"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/playerA_set2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/playerA_set3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/playerA_current_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="0"
+                android:textAlignment="textStart"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/myview"
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:background="#008000" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/playerB_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_margin="5dp"
+                android:text="Serena Williams"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/playerB_set1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="center_horizontal"
+                android:text="0"
+                android:textAlignment="textStart"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/playerB_set2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/playerB_set3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="center_horizontal"
+                android:text=""
+                android:textAlignment="textStart"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/playerB_current_game"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="0"
+                android:textAlignment="textStart"
+                android:textColor="#0000FF"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/message_tiebreak_set1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/message_tiebreak_set2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/message_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:layout_margin="4dp"
+        android:text="Match started"
+        android:textAlignment="center"
+        android:textColor="#0000FF"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="addPointForPlayerA"
+            android:layout_marginRight="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:text="Point for Simona" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="addPointForPlayerB"
+            android:layout_marginRight="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="8dp"
+            android:text="Point for Serena" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4dp"
+        android:onClick="resetScores"
+        android:text="Reset" />
+
+</LinearLayout>
